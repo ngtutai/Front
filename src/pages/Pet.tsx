@@ -121,7 +121,7 @@ function Pet() {
             borderRadius: "8px",
           }}
         >
-          <h1 className="display-4 fw-bold mb-0">Pets</h1>
+          <h1 className="display-4 fw-bold mb-0">Pet</h1>
         </div>
       </section>
 
