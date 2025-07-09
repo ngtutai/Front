@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thanh Toán</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo/pawprint.png"
+      type="image/x-icon"
+    />
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 80px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Thanh toán demo</h2>
+    <p>Bấm nút bên dưới để hoàn tất thanh toán</p>
+    <button onclick="handlePay()">✅ Thanh toán</button>
+
+    <script>
+      const params = new URLSearchParams(location.search);
+      const orderId = params.get("orderId");
+
+      function handlePay() {
+        // Gửi yêu cầu POST lên server (nếu cần)
+        fetch("/api/demo-paid?orderId=" + orderId, { method: "POST" });
+
+        // Cập nhật trạng thái localStorage để React biết đã thanh toán
+        localStorage.setItem("orderStatus_" + orderId, "paid");
+
+        toast.success("✅ Đã thanh toán thành công!");
+      }
+    </script>
+  </body>
+</html>

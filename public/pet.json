@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Mèo Anh lông ngắn",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mèo Xiêm",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mèo Anh lông dài",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mèo Maine Coon",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mèo tai cụp Scottish",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mèo Anh lông ngắn",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mèo Xiêm",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mèo Anh lông dài",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mèo Maine Coon",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Mèo tai cụp Scottish",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Mèo Anh lông ngắn",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Mèo Xiêm",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Mèo Anh lông dài",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mèo Maine Coon",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Mèo tai cụp Scottish",
+    "type": "cat",
+    "price": 900000,
+    "image": "assets/images/cat.jpg"
+  }
+]
