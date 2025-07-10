@@ -135,7 +135,7 @@ function Pet() {
           <div className="col-8">
             {/* Hiển thị trang đang ở */}
             <div className="text-dark text-start fw-bold fs-5">
-              <a href="/" className="text-dark text-decoration-none">
+              <a href="/" className="text-muted text-decoration-none">
                 Home
               </a>{" "}
               / Pet /{" "}

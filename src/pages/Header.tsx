@@ -65,7 +65,7 @@ const Header: React.FC = () => {
                       "nav-link" + (isActive ? " active text-warning" : "")
                     }
                   >
-                    Home
+                    Trang chủ
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
                       "nav-link" + (isActive ? " active text-warning" : "")
                     }
                   >
-                    Pet
+                    Thú cưng
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -85,7 +85,7 @@ const Header: React.FC = () => {
                       "nav-link" + (isActive ? " active text-warning" : "")
                     }
                   >
-                    Product
+                    Chi tiết
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -95,7 +95,7 @@ const Header: React.FC = () => {
                       "nav-link" + (isActive ? " active text-warning" : "")
                     }
                   >
-                    Contact
+                    Liên hệ
                   </NavLink>
                 </li>
               </ul>
@@ -109,14 +109,14 @@ const Header: React.FC = () => {
                       (isActive ? " active text-warning" : "")
                     }
                   >
-                    <i className="fa-solid fa-cart-shopping"></i>
+                    <i className="fa-solid fa-cart-shopping me-1"></i>
                     <span
                       className="position-absolute top-1 start-100 translate-middle badge rounded-pill bg-danger"
                       style={{ fontSize: "12px" }}
                     >
                       {cartCount}
                     </span>
-                    Cart
+                    Giỏ hàng
                   </NavLink>
                 </li>
                 <li className="nav-item ms-2">
@@ -126,7 +126,7 @@ const Header: React.FC = () => {
                       "nav-link" + (isActive ? " active text-warning" : "")
                     }
                   >
-                    <i className="fa-solid fa-user"></i> Login
+                    <i className="fa-solid fa-user"></i> Đăng nhập
                   </NavLink>
                 </li>
               </ul>

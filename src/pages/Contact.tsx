@@ -16,13 +16,27 @@ function Contact() {
       <link rel="stylesheet" href="assets/css/bootstrap-4.1.3.min.css" />
       <link rel="stylesheet" href="assets/css/styles.css" />
       <Header />
-      <section className="banner-area banner-area2 text-center">
-        <div className="col-lg-12">
-          <h1 className="display-4 fw-bold">
-            <p className="mb-0">Contact</p>
-          </h1>
+      <section
+        className="banner-area banner-area2 text-center text-white d-flex align-items-center justify-content-center"
+        style={{
+          backgroundImage: `url("assets/images/contact.jpg")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "630px",
+          position: "relative",
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: "rgba(0, 0, 0, 0.13)",
+            padding: "20px 40px",
+            borderRadius: "8px",
+          }}
+        >
+          <h1 className="display-4 fw-bold mb-0">Liên hệ</h1>
         </div>
       </section>
+
       <div className="bg-danger bg-opacity-25 py-2 mt-4 mb-1 ">
         <h1 className="text-center text-white mt-2">Liên hệ với chúng tôi</h1>
       </div>

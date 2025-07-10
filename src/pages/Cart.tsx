@@ -137,18 +137,37 @@ const Cart: React.FC = () => {
   return (
     <Fragment>
       <Header />
-      <section className="banner-area banner-area2 text-center">
-        <div className="col-lg-12">
-          <h1 className="display-4 fw-bold">
-            <p>Cart</p>
-          </h1>
+      <section
+        className="banner-area banner-area2 text-center text-white d-flex align-items-center justify-content-center"
+        style={{
+          backgroundImage: `url("assets/images/cart.webp")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "630px",
+          position: "relative",
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: "rgba(0, 0, 0, 0.13)",
+            padding: "20px 40px",
+            borderRadius: "8px",
+          }}
+        >
+          <h1 className="display-4 fw-bold mb-0">Pet</h1>
         </div>
       </section>
+
       <div className="container-fluid text-start">
         <div className="row p-2 mt-2">
           {/* Left Sidebar */}
           <div className="col-12 col-md-8 mb-3">
-            <h5>Home / Cart</h5>
+            <h5>
+              <a href="/" className="text-muted text-decoration-none">
+                Trang chủ
+              </a>{" "}
+              / Giỏ hàng
+            </h5>
             <div className="row">
               <div className="col">
                 <table className="table table-bordered text-center align-middle">

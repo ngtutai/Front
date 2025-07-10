@@ -28,7 +28,7 @@ function Login() {
                 role="tabpanel"
                 aria-labelledby="login-tab"
               >
-                <h2 className="mb-3 text-center fw-bold">Login</h2>
+                <h2 className="mb-3 text-center fw-bold">ĐĂNG NHẬP</h2>
                 <form className="text-start">
                   <div className="mb-3">
                     <label htmlFor="loginEmail" className="form-label">
@@ -44,7 +44,7 @@ function Login() {
                   </div>
                   <div className="mb-3">
                     <label htmlFor="loginPassword" className="form-label">
-                      Password
+                      Mật khẩu
                     </label>
                     <input
                       type="password"
@@ -55,12 +55,12 @@ function Login() {
                     />
                   </div>
                   <button type="submit" className="btn btn-primary w-100">
-                    Login
+                    Đăng nhập
                   </button>
                   <p className="mt-3 text-start">
-                    Don't have an account?{" "}
+                    Bạn chưa có tài khoản?{" "}
                     <a href="/register" className="text-decoration-none">
-                      Sign Up
+                      Đăng ký
                     </a>
                   </p>
                 </form>

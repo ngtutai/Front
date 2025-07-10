@@ -13,6 +13,7 @@ import Pet from "./pages/Pet";
 import AdminWeb from "./admins/AdminWeb";
 import AdminSlide from "./admins/AdminSlide";
 import AdminCategory from "./admins/AdminCategory";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/category" element={<AdminCategory />} />
 
           {/* Link Error */}
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
 
